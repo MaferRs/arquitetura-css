@@ -1,0 +1,33 @@
+.receitas{
+   background: #E5E5E5;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 5rem 0 0 5rem;
+   
+}
+.receita{
+   display: flex;
+   flex-direction: column;
+   width: calc(25%-5rem);
+   background: #FFFFFF;
+   border: 1px solid #C4C4C4;
+   margin: 0 5rem 5rem 0;
+   border-radius: 8px;
+
+}
+.receita__imagem{
+   border-radius: 8px  8px 0 0;
+}
+.receita__conteudo{
+
+}
+.receita__titulo{
+
+}
+.receita__descricao{
+
+}
+.receita__botao{
+
+}
