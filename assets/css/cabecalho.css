@@ -28,3 +28,11 @@
 .menu__link:hover{
    text-decoration: underline;
 }
+@media (min-width: 375px) and (max-widht: 900px){
+   .cabecalho{
+      flex-direction: column;
+   }
+  .menu__lista{
+
+  }
+}

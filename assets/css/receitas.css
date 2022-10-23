@@ -9,25 +9,56 @@
 .receita{
    display: flex;
    flex-direction: column;
-   width: calc(25%-5rem);
    background: #FFFFFF;
-   border: 1px solid #C4C4C4;
-   margin: 0 5rem 5rem 0;
+   margin: 0 2rem 5rem 0;
+   width: 25%;
    border-radius: 8px;
 
 }
 .receita__imagem{
    border-radius: 8px  8px 0 0;
 }
-.receita__conteudo{
 
-}
 .receita__titulo{
+   font-family: 'Roboto';
+   font-size: 1.2rem;
+   color: #000000;
+   text-align: justify;
+   padding:  0.8rem ;
 
 }
 .receita__descricao{
+   font-family: 'Roboto';
+   font-size: 1rem;
+   color: #000000;
+   text-align: justify;
+   padding: 0 1rem;
+   
 
 }
 .receita__botao{
+   background: #8D0606;
+   border-radius: 5px;
+   color: white;
+   border: none;
+   margin:  0 1rem 2rem;
+   padding: 0.5rem;
+}
+.receita__botao:hover{
+   background: #520202;
+   transition: ease-in 0.2s;
+   transform: scale(1,1);
+   
+}
+@media (min-width: 375px)and (max-widht: 900px){
+   .receitas{
+      width: 100%;
+      margin: 0 auto ;
+      padding: 0.8rem 0;
+   }
+   .receita{
+     width: 70%;
+     margin: 2rem auto 2rem;
 
+   }
 }
