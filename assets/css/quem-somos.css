@@ -52,7 +52,7 @@ footer{
    width: 100%;
    height: 4rem;
 }
-@media (min-width: 375px) and (max-widht: 900px){
+@media (max-width:850px){
    .quem-somos{
       width: 100%;
    }

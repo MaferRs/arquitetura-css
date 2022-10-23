@@ -50,7 +50,7 @@
    transform: scale(1,1);
    
 }
-@media (min-width: 375px)and (max-widht: 900px){
+@media (max-width:850px){
    .receitas{
       width: 100%;
       margin: 0 auto ;
